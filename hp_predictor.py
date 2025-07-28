@@ -1,11 +1,3 @@
-"""Random forest regression is a model that uses 
-multiple decision trees to make predictions. It 
-calculates the mean of all the predictions of the 
-individual decision trees to produce a final 
-prediction. This approach helps to reduce 
-overfitting and improve the accuracy of predictions 
-compared to a single decision tree."""
-
 from sklearn.ensemble import RandomForestRegressor #library for random forest regression
 import pandas as pd #library for data manipulation and analysis
 from sklearn.tree import DecisionTreeRegressor #library for decision tree regression
